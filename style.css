@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://img.quizur.com/f/img5fa940078396a6.04893208.jpg?lastEdited=1604927510?o=capa");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  color: #e7e7e7;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background-color: #000000c7;
+    font-size: 0.8rem;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    backdrop-filter: blur(5px);
+    z-index: 100;
+}
+
+header img {
+    width: 5vw;
+    height: 100%;
+    min-width: 40px;
+    min-height: 50px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+main {
+    margin-top: 110px;
+}
+
+main h2 {
+    text-shadow: 2px 2px black;
+}
+
+#img-caption h2 {
+    text-align: center;
+}
+
+#foto-descripcion {
+    width: 40vw;
+    min-width: 280px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 1.03rem;
+    background-color: #000000b6;
+    padding: 15px;
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#image {
+    width: 250px;
+    height: auto;
+    min-width: 80px;
+    max-width: 100%;
+    min-height: 250px;
+    max-height: 340px;
+    margin-right: 15px;
+    object-fit: cover;
+    float: left;
+}
+
+#foto-descripcion a {
+    color: #949494;
+    text-shadow: -3px 3px 1px black;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+#foto-descripcion a:hover {
+    color: #c2c2c2;
+    font-size: 1.1rem;
+}
+
+articule {
+  display: block;
+  margin: 10px 0;
+  padding: 20px;
+  padding-top: 0px;
+  text-align: justify;
+  font-size: 1.09rem;
+  background-color: #000000b6;
+  overflow: hidden;
+  backdrop-filter: blur(2px);
+  border-radius: 8px;
+}
+
+articule img {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+  object-fit: cover;
+}
